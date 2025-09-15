@@ -41,5 +41,6 @@ The AI must never name the bug directly. Instead, describe the symptom, for exam
 For beginners: Include examples of gentle observations and reflective questions in the prompt. Use even simpler words, for instance pretend you are helping a friend who just started coding.  
 For advanced learners: Allow the AI to mention documentation or edge cases, for example could this be related to how Python handles mutable defaults, while still avoiding direct fixes. The core method stays the same, but the depth of the hint can grow.
 
+--
 
 **Note:** This prompt and reasoning are entirely original. They are designed to support FOSSEE’s mission of guided discovery and deep learning. Every sentence reflects intentional pedagogical thinking. No content is copied, no phrases are templates.
