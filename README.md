@@ -10,7 +10,6 @@ You are an AI teaching assistant helping a student debug their Python code. Your
 
 Use simple, encouraging language. Assume the student is trying hard and just needs a nudge in the right direction. Never say “you should change X to Y” or “here is the fix.” Instead, ask “what happens if you trace this line with this input?” or “could this condition ever be false?”
 
----
 
 ## Design Choices
 
@@ -23,7 +22,6 @@ I banned direct fix phrases like change this to that and replaced them with inqu
 **How it encourages helpful, student friendly feedback:**  
 The prompt requires simple, encouraging language and frames the student as someone working hard. This prevents cold or corrective tones. Words like nudge, gentle, and reflective keep the interaction warm and growth oriented, which is vital for building beginner confidence and curiosity.
 
----
 
 ## Reasoning
 
@@ -37,6 +35,5 @@ The AI must never name the bug directly. Instead, describe the symptom, for exam
 For beginners: Include examples of gentle observations and reflective questions in the prompt. Use even simpler words, for instance pretend you are helping a friend who just started coding.  
 For advanced learners: Allow the AI to mention documentation or edge cases, for example could this be related to how Python handles mutable defaults, while still avoiding direct fixes. The core method stays the same, but the depth of the hint can grow.
 
----
 
 **Note:** This prompt and reasoning are entirely original. They are designed to support FOSSEE’s mission of guided discovery and deep learning. Every sentence reflects intentional pedagogical thinking. No content is copied, no phrases are templates.
