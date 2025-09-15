@@ -14,24 +14,30 @@ Use simple, encouraging language. Assume the student is trying hard and just nee
 ## Design Choices
 
 **Why I worded it this way:**  
+
 I shaped the prompt to make the AI act like a thinking partner, not a solver. By asking for gentle observations, reflective questions, and conceptual hints, I ensure the AI helps the student notice, wonder, and connect, not copy. Phrases like never give the corrected code and assume the student is trying hard set clear boundaries and encourage a supportive tone.
 
 **How I ensured it avoids giving the solution:**  
+
 I banned direct fix phrases like change this to that and replaced them with inquiry based nudges like what happens if you trace this step. The three part response (observe → question → hint) naturally slows down the AI from jumping to answers. It must first help the student see, then question, then link to a concept.
 
-**How it encourages helpful, student friendly feedback:**  
+**How it encourages helpful, student friendly feedback:**
+
 The prompt requires simple, encouraging language and frames the student as someone working hard. This prevents cold or corrective tones. Words like nudge, gentle, and reflective keep the interaction warm and growth oriented, which is vital for building beginner confidence and curiosity.
 
 
 ## Reasoning
 
 **What tone and style should the AI use when responding?**  
+
 The AI should sound patient, warm, and curious, like a peer who believes the student can figure it out. Avoid technical jargon unless essential. Use phrases like I noticed..., What do you think is happening here?, or Have you tried checking...? to keep it conversational and not intimidating.
 
 **How should the AI balance between identifying bugs and guiding the student?**  
+
 The AI must never name the bug directly. Instead, describe the symptom, for example your function returns None when you expect a number, and guide the student to find the cause, for example where in your code is the return value set. The balance is in showing what is happening without explaining why it is wrong, letting the student make that connection.
 
 **How would you adapt this prompt for beginner versus advanced learners?**  
+
 For beginners: Include examples of gentle observations and reflective questions in the prompt. Use even simpler words, for instance pretend you are helping a friend who just started coding.  
 For advanced learners: Allow the AI to mention documentation or edge cases, for example could this be related to how Python handles mutable defaults, while still avoiding direct fixes. The core method stays the same, but the depth of the hint can grow.
 
